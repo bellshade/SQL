@@ -1,6 +1,10 @@
 # SQL
 
-Tutorial dari _structure query language_ (sql)
+## Pengertian dari _Structure Query Language (SQL)_
+
+_Structure Query Language (SQL)_ adalah sebuah bahasa yang biasa digunakan untuk mengakses atau memanipulasi data pada _Relational Database Management System (RDBMS)_. Contoh RDBMS yang populer saat ini, yaitu _MySQL_, _PostgreSQL_, _Microsoft SQL Server, dan Oracle_.
+
+SQL syntax tidak bersifat _case sensitive_. Jadi antara ```insert``` sama saja dengan ```INSERT```. Tetapi beberapa programmer suka menggunakan ```UPPERCASE``` dalam menulis SQL syntax.
 
 ## Insert
 

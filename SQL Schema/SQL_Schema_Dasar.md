@@ -8,11 +8,13 @@ Dalam sebuah **Schema** berisi beberapa objek seperti _Table_, _View_, _Store Pr
 
 ### Menampilkan Skema
 
-Untuk melihat **Schema** yang dimiliki sebuah **SQL Database** menggunakan query :
-
 ```sql
 SHOW DATABASES;
 ```
+
+Setelah di eksekusi, akan muncul nama-nama **Schema** yang ada didalam database
+
+![SHOW DATABASE](https://i.ibb.co/qxjNQXG/show-databases-mysql.png)
 
 ### Memilih Skema
 
@@ -23,6 +25,8 @@ contoh nama **schema** adalah `bellshade_db`.
 ```sql
 USE bellshade_db;
 ```
+
+Query `USE` ini digunakan untuk mengubah _Schema_ yang ingin di akses di _database management tools_ seperti *SQL SERVER *atau* mysql workbench*,
 
 ### Membuat Skema
 

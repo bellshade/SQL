@@ -1,6 +1,6 @@
 # Schema dasar
 
-Didalam sebuah **SQL Database** terdapat banyak **Schema** (**Skema**) yang bertujuan untuk memisahkan perngguan aplikasi yang berbeda dan pembagian hak akses.
+Di dalam sebuah **SQL Database** terdapat banyak **Schema** (**Skema**) yang bertujuan untuk memisahkan perngguan aplikasi yang berbeda dan pembagian hak akses.
 
 Dalam sebuah **Schema** berisi beberapa objek seperti _Table_, _View_, _Store Procedure_ , _Function_ dan objek lainnya.
 

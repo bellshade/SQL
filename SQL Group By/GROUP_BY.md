@@ -64,7 +64,7 @@ output :
 
 Jika kita ingin menampilkan kolom `Barang` juga (`SELECT Nama, Barang`) maka di `GROUP BY` harus ditambahkan kolom `Barang` juga (`GROUP BY Nama, Barang`), jika tidak akan terjadi _error_
 
-## MenggunakanCOUNT, MAX, MIN, SUM dan AVG
+## Menggunakan COUNT, MAX, MIN, SUM dan AVG
 
 ### `Count()`
 

@@ -17,11 +17,13 @@
    d. AND, OR, NOT<br>
    e. Order By<br>
    f. Limit<br>
-6. Join
-7. View
-8. Data Manipulation Language<br>
+   g. Like<br>
+   h. Wildcard<br>
+6. Min, Max, Count, Average, Sum
+7. Join
+8. View
+9. Data Manipulation Language<br>
    a. Insert<br>
    b. Update<br>
    c. Delete<br>
-10. Data Control Language
-11. Transaction Control Language
+10. Procedure

@@ -1,35 +1,40 @@
 # SQL INTRO
 
-## Perintah SQL
+## Pengenalan Konsep Dasar Database (Basis Data)
 
-> Perintah standar yang digunakan untuk berinteraksi dengan data didalam database relasional dapat dibagi menjadi 3 bagian : _Data Definition Language_ (_DDL_), _Data Manipulation Language_ (_DML_) dan _Data Control Language_ (_DCL_)
+Sebelum itu kita perlu mengetahui bahwa database memiliki konsep dasar agar kita tahu seperti apa itu gambaran database, jika kita teliti database (Basis Data) terdiri dari 2 kata data dan basis, berikut ini konsep dasar nya
 
-### Data Definition Language (DDL)
+### **Apa itu Data?**
+> Representasi Fakta yang mewakili suatu objek yang disimpan / direkam dalam bentuk bisa huruf, angka, simbol, teks, gambar, bunyi, dan bentuk kombinasi lainnya
 
-Perintah di SQL untuk berinteraksi dengan objek seperti **Database Schema**, **Table**, **View**, **Store Procedure** atau objek lainnya
+### **Apa itu Basis Data?**
+> Sekumpulan Data yang sudah di intergrasi yang diorganisasikan untuk memenuhi keinginan para pemakai dalam suatu organisasi
 
-#### Ini adalah perintah **DDL**
+Setelah mengetahui konsep dasar dari basis data tersebut, hal ini dapat memudahkan kita dalam mengelola data. Tetapi ada satu masalah, pengelolahan data masih dilakukan secara manual oleh manusia, bayangkan apa yang terjadi jika mengelola nya dalam skala basis data yang besar pasti akan merepotkan, dalam hal ini maka dibutuhkan lah sebuah software pengelola basis data yaitu
 
-- `CREATE` | **Membuat** sebuah objek atau objek lainnya yang belum ada.
-- `ALTER` | **Mengubah** sebuah objek yang sudah ada.
-- `DROP` | **Menghapus** sebuah objek atau objek lainnya yang sudah ada.
+### **DBMS (Data Base Management System)**
+>Yaitu Sebuah Software yang akan menangani semua pengaksesan dan Pengelolahan Database oleh komputer dengan mudah.
 
-### Data Manipulation Language (DML)
+Contoh DBMS :
+1. MySQL
+2. Microsoft SQL Server
+3. ORACLE DB
+4. Postgree SQL
+5. Maria DB
+6. Mongo DB
+7. Microsoft Access
 
-Perintah di SQL untuk berinteraksi dengan _record_ atau data didalam database
 
-#### Ini adalah perintah **DML**
+### **KEUNTUNGAN DAN KEKURANGAN DBMS**
 
-- `SELECT` | **Mengambil** _record_ atau data dari satu atau lebih tabel.
-- `INSERT` | **Membuat** _record_ atau data.
-- `UPDATE` | **Mengubah** _record_ atau data yang sudah ada.
-- `DELETE` | **Menghapus** _record_ atau data yang sudah ada.
+Kelebihan 
+- Keamanan Data Terjamin
+- Bisa dipakai secara bersama antar pengguna dengan pengguna lainnnya (Shared)
+- Terkontrol nya pemakaian data
+- Data Tetap Konsisten
 
-### Data Control Language (DCL)
-
-Perintah di SQL untuk berinteraksi dengan _record_ atau data didalam database
-
-#### Ini adalah perintah **DCL**
-
-- `GRANT` | **Memberikan** hak akses kepada _User_.
-- `REVOKE` | **Manghapus** hak akses dari _User_.
+Kekurangan
+- Biaya Lebih Mahal
+- Memerlukan Spesialis dibidang Database
+- Memerlukan Ruang Penyimpanan yang Besar
+- Kompleks dan Rumit

@@ -18,7 +18,7 @@ pull_request_rules:
       label:
         add:
           - sql files
-          - request tim php untuk review
+          - request tim sql untuk review
   - name: markdown label
     conditions:
       - files~=\.md$

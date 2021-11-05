@@ -19,7 +19,7 @@ CREATE TABLE siswa (
 -- Memasukkan data siswa baru ke dalam seluruh kolom dari tabel siswa (nidn dan nama)
 INSERT INTO siswa VALUES(1,"Budi");
 
--- Hanya memasukkan nidn saja
+-- Hanya memasukkan nisn saja
 INSERT INTO siswa (nisn) VALUES (2);
 
 -- Memasukkan multiple data ke dalam tabel siswa

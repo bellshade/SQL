@@ -39,7 +39,7 @@ Syntax
 ``
 SHOW DATABASES;
 ``
-Gunakan synatax tersebut jika ingin melihat berapa jumlah database.
+Gunakan syntax tersebut jika ingin melihat berapa jumlah database yang dimiliki sistem.
 
 Referensi : https://www.w3schools.com/sql/sql_create_db.asp
             https://www.w3schools.com/sql/sql_drop_db.asp

@@ -13,7 +13,7 @@ USE sekolah;
 CREATE TABLE siswa (
   nisn int, -- int adalah bilangan bulat -> Integer
   nama varchar(50), -- varchar adalah karakter, 50 adalah limit maksimal panjang karakter
-  primary key(nidn) -- primary key adalah unique value dari data tersebut, disini kita membuat primary key nya adalah nisn (nomor induk siswa nasional)
+  primary key(nisn) -- primary key adalah unique value dari data tersebut, disini kita membuat primary key nya adalah nisn (nomor induk siswa nasional)
   );
   
 -- Memasukkan data siswa baru ke dalam seluruh kolom dari tabel siswa (nidn dan nama)

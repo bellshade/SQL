@@ -11,6 +11,10 @@
     > `CREATE TABLE `+ Nama tabel + `(` + Nama Kolom +` ` + Tipe Data Kolom +`(` + Panjang Data +`) `+ Key + ` AUTO INCREMENT NOT NULL); `
    
   Contoh : 
+  
+  Note 
+  > Jika terdapat lebih dari 1 kata maka gunakan tanda ``_`` sebagai pengganti spasi.
+
   - Membuat Database : 
     > `CREATE DATABASE Mahasiswa;`
 

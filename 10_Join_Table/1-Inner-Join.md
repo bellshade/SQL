@@ -15,6 +15,7 @@ ON table1.column_name = table2.column_name;
 ## Contoh 
 
 ### Demo Database
+
 Table: Student                                                    
 |  ID  | FirstName | LastName | Class_Id |
 | :--: | :-------: |:--------:| :------: |
@@ -29,7 +30,6 @@ Table: Class
 |    31    | Math      | 
 |    32    | Physics   | 
 |    33    | English   |
- 
 
 ### Contoh Syntax
 

@@ -1,8 +1,7 @@
 # INNER JOIN
 ![INNER JOIN](https://user-images.githubusercontent.com/93637835/140651112-d09d9473-c725-4e9c-9f8b-c122aa13a0b5.png)
 
->`INNER JOIN` adalah syntax yang digunakan untuk menampilkan suatu data atau record dengan menghubungkan dua table atau lebih dalam satu kali perintah.
->Data yang ditampilkan pada `INNER JOIN` adalah data yang memiliki pasangan atau kesamaan pada semua table yang dihubungkan.
+>`INNER JOIN` adalah syntax yang digunakan untuk menampilkan suatu data atau record dengan menghubungkan dua table atau lebih dalam satu kali perintah. Data yang ditampilkan pada `INNER JOIN` adalah data yang memiliki pasangan atau kesamaan pada semua table yang dihubungkan.
 
 ## Syntax
 ```
@@ -47,3 +46,6 @@ ON Student.ClassID = Class.ID
 |  Adellyn  | Math      | 
 |    Jack   | Physics   | 
 |  Lalisa   | Math      |
+
+## Referensi
+https://www.w3schools.com/sql/sql_join_inner.asp

@@ -27,10 +27,10 @@ pull_request_rules:
         add:
           - markdown files
           - request docs team untuk review
-  - name: review docs team untuk file markdown
+  - name: review sql team untuk file markdown
     conditions:
       - label=markdown files
     actions:
       request_reviews:
         teams:
-          - "@bellshade/docs-team"
+          - "@bellshade/sql-team"

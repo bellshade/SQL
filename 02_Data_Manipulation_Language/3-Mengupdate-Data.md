@@ -23,7 +23,7 @@ Contoh :
 
 Diatas disediakan tabel **nish** dan **nama** dari tabel **SISWA**
 
-### -> Ubah kolom **nama** `Budi` saja menjadi `Alice`
+### Ubah kolom **nama** `Budi` saja menjadi `Alice`
 
 ```SQL
 -- cara 1

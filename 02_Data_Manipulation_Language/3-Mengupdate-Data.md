@@ -45,7 +45,7 @@ Hasil :
 | 4 | Poseidon |
 | 5 | Hades |
 
-### -> Ubah semua yang ada di kolom **nama** menjadi `Bob`
+### Ubah semua yang ada di kolom **nama** menjadi `Bob`
 
 ```SQL
 UPDATE SISWA

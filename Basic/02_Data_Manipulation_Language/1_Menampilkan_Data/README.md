@@ -53,7 +53,7 @@ output:
 
 ### Penggunaan Asterisk
 
-**Asterisk** `"*"` adalah query yang digunakan untuk menyingkat dalam pemanggilan semua kolom yang ada dalam sebuah tabel.
+**Asterisk** `"*"` adalah query yang digunakan untuk mempersingkat dalam pemanggilan semua kolom yang ada dalam sebuah tabel.
 
 ```sql
 SELECT *

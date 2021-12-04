@@ -72,7 +72,7 @@ _nb. penggunaan asterisk seperti diatas tidak berlaku untuk semua jenis DBMS, te
 
 ### Mengambil Data Dibeberapa Kolom
 
-Untuk mengambil beberapa kolom yang ada di tabel, hal yang dilakukan adalah menuliskan hanya nama kolom yang ingin diambil :
+Untuk mengambil beberapa kolom yang ada di tabel, hal yang dilakukan adalah hanya menuliskan nama kolom yang ingin diambil :
 
 ```sql
 SELECT nama

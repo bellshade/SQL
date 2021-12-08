@@ -104,3 +104,5 @@ Note :
     Penjelasan : 
     hasil nya dikatakan false karena benar nilai 1 tidak sama dengan nilai 2
     
+    
+    

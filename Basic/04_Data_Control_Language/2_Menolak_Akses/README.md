@@ -8,7 +8,7 @@ Secara default yang dapat mencabut Hak Istimewa (_Privileges_) dari user lain ad
 
 _Privileges_ yang bisa dicabut adalah :
 
-| _Privileges_ | Diskripsi                                              |
+| _Privileges_ | Deskripsi                                              |
 | ------------ | ------------------------------------------------------ |
 | SELECT       | Hak untuk Menampilkan data yang sudah ada              |
 | INSERT       | Hak untuk memasukan data                               |
@@ -21,7 +21,7 @@ _Privileges_ yang bisa dicabut adalah :
 | GRANT OPTION | Hak untuk memberi atau mencabut akses kepada User lain |
 | ALL          | Semua Hak _Privileges_                                 |
 
-## Sintak
+## Syntax
 
 ```sql
 REVOKE hak_akses ON nama_objek FROM user;
@@ -33,7 +33,7 @@ Selalu simpan perubahan yang dilakukan dengan sintak :
 FLUSH Privileges;
 ```
 
-## Sintak Query
+## Syntak Query
 
 Untuk contoh di materi ini, saya menggunakan :
 

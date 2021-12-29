@@ -35,9 +35,11 @@ FLUSH Privileges;
 
 Untuk contoh di materi ini, saya menggunakan :
 
-- User : `bell_user`
-- Database : `Sekolah`
-- tabel : `Siswa`
+User : `bell_user`
+
+Database : `Sekolah`
+
+tabel : `Siswa`
 
 ### Membuat User Baru
 

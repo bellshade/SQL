@@ -37,9 +37,11 @@ FLUSH Privileges;
 
 Untuk contoh di materi ini, saya menggunakan :
 
-- User : `bell_user`
-- Database : `Sekolah`
-- tabel : `Siswa`
+User : `bell_user`
+
+Database : `Sekolah`
+
+Tabel : `Siswa`
 
 ### Mencabut satu Privileges saja
 
@@ -75,7 +77,7 @@ Untuk Query nya, nama kolom ditulis di sebelah _Privileges_ dan didalam kurung `
 REVOKE SELECT(id) ON Sekolah.Siswa FROM 'bell_user'@'localhost';
 ```
 
-Sehingga saat menjalankan `SELECT * FROM Siswa` akan mengeluarkan error karena tidak memiliki*Privileges* untuk melihat kolom `id` di kolom `Siswa`
+Sehingga saat menjalankan `SELECT * FROM Siswa` akan mengeluarkan error karena tidak memiliki _Privileges_ untuk melihat kolom `id` di kolom `Siswa`
 
 > SELECT command denied to user 'bell_user'@'localhost' for column 'id' in table 'Siswa'
 

@@ -2,16 +2,16 @@
 
 Query `DELETE` di SQL digunakan untuk menghapus data yang sudah ada di sebuah table dari database yang kita miliki.<br>
 
-### DELETE sintak
+## DELETE sintak
 
 ```sql
 DELETE FROM nama_tabel
 WHERE kondisi --optional
 ```
 
-### Contoh Penggunaan
+## Contoh Penggunaan
 
-#### Persiapkan
+### Persiapkan
 
 _Materi 2_Menginputkan_Data_
 
@@ -47,7 +47,7 @@ INSERT INTO siswa VALUES(3,"Ani"), (4,"Poseidon"), (5,"Hades");
 
 ### Delete data secara spesifik
 
-- Menghapus kolom **nama** `Budi`
+Menghapus kolom **nama** `Budi`
 
 ```SQL
 -- cara 1
@@ -67,7 +67,7 @@ WHERE nish = 1 -- Menggunakan kondisi di kolom `nish`
 
 ### Delete semua data di suatu tabel
 
-- Menghapus semua data dalam 1 tabel
+Menghapus semua data dalam 1 tabel
 
 ```SQL
 DELETE FROM SISWA

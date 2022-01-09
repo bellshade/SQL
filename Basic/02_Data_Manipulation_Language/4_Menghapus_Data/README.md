@@ -2,7 +2,7 @@
 
 Query `DELETE` di SQL digunakan untuk menghapus data yang sudah ada di sebuah table dari database yang kita miliki.<br>
 
-## DELETE sintak
+## DELETE syntax
 
 ```sql
 DELETE FROM nama_tabel
@@ -26,10 +26,10 @@ USE sekolah;
 CREATE TABLE siswa (
   nisn int NOT NULL, -- int adalah bilangan bulat -> Integer
   nama varchar(50), -- varchar adalah karakter, 50 adalah limit maksimal panjang karakter
-  primary key(nisn) -- primary key adalah unique value dari data tersebut, disini kita membuat primary key nya adalah nisn (nomor induk siswa nasional), saat membuat primary key tambahkan NOT NULL agar mempertegas kolom nisn tidak boleh kosong saat memasukan data
+  primary key(nisn) -- primary key adalah unique value dari data tersebut, disini kita membuat primary key nya adalah nisn (nomor induk siswa nasional), saat membuat primary key tambahkan NOT NULL agar mempertegas kolom nisn tidak boleh kosong saat memasukan data.
   );
 
--- Memasukkan data siswa baru ke dalam seluruh kolom dari tabel siswa (nidn dan nama)
+-- Memasukkan data siswa baru ke dalam seluruh kolom dari tabel siswa (nisn dan nama)
 INSERT INTO siswa VALUES(1,"Budi");
 
 -- Memasukkan multiple data ke dalam tabel siswa

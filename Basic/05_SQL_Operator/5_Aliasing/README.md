@@ -1,14 +1,14 @@
-## **Aliasing**
+## Aliasing
 
 > Mengubah nama tabel atau kolom secara sementara, agar tabel atau kolom mudah dibaca dan dipahami saat menampilkan data.
 
-### **1. Bentuk Umum**
+### 1. Bentuk Umum
 
 `SELECT nama_kolom AS nama_kolom_alias`
 
 `SELECT * FROM nama_tabel AS nama_tabel_alias`
 
-### **2. Contoh**
+### 2. Contoh
 
   - Nama kolom : 
     

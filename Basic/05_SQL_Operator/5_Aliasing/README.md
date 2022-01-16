@@ -10,7 +10,7 @@
 
 ### **2. Contoh**
 
-- Nama kolom : 
+  - Nama kolom : 
     
     SQL Query : `SELECT 5 as HASIL`
     
@@ -24,11 +24,11 @@
     Penjelasan : 
     Menampilkan kolom bernilai 5 dengan nama **HASIL** disemua baris.
     
-- Nama kolom dari Tabel : 
+  - Nama kolom dari Tabel : 
     
     SQL Query : `SELECT gaji_karyawan as gaji FROM karyawan`
     
-    Output : 
+    Output :
     
     | gaji |
     | ----  |
@@ -39,7 +39,7 @@
     Penjelasan : 
     Menampilkan kolom **gaji_karyawan** dengan nama **gaji** saat ditampilkan.
 
-- Nama Kolom dari hasil aritmatika : 
+  - Nama Kolom dari hasil aritmatika :
     
     SQL Query : `SELECT gaji_karyawan_per_jam * waktu_kerja as total_gaji FROM karyawan`
     
@@ -54,9 +54,9 @@
     Penjelasan : 
     Menampilkan hasil perhitungan kolom **gaji_karyawan_per_jam** dan **waktu_kerja** dengan nama **total_gaji** saat ditampilkan.
    
-    - Nama tabel : 
+    - Nama tabel :
         
-        SQL Query : `SELECT * FROM tabel_absen_mahasiswa AS tbl_mhs`
+      SQL Query : `SELECT * FROM tabel_absen_mahasiswa AS tbl_mhs`
             
-        Penjelasan : 
-        menyingkat nama tabel **tabel_absen_mahasiswa** menjadi **tbl_mhs**
+      Penjelasan : 
+      menyingkat nama tabel **tabel_absen_mahasiswa** menjadi **tbl_mhs**

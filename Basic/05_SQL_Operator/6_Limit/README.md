@@ -6,14 +6,14 @@
 
 ## Query
 
-*Note* : setiap database memiliki cara untuk menggunakan LIMIT
+*Note* : setiap database memiliki cara untuk menggunakan LIMIT.
 
 ### MYSQL
 
 ```sql
 SELECT * FROM nama_tabel LIMIT 20;
 ```
-Query diatas akan mengeluarkan 20 data saat dieksekusi
+Query diatas akan mengeluarkan 20 data saat dieksekusi.
 
 ### SQL SERVER 2012
 
@@ -23,7 +23,7 @@ Pada *SQL Server* peggunaan *LIMIT* bisa menggunakan `TOP`.
 SELECT TOP 10 * FROM nama_tabel;
 ```
 
-Query diatas akan mengeluarkan 10 data teratas saat dieksekusi
+Query diatas akan mengeluarkan 10 data teratas saat dieksekusi.
 
 ### MARIA DB
 
@@ -33,7 +33,7 @@ Pada *Maria DB* bisa menggunakan *LIMIT*.
 SELECT * FROM nama_tabel LIMIT 15;
 ```
 
-Query diatas akan mengeluarkan 15 data teratas saat dieksekusi
+Query diatas akan mengeluarkan 15 data teratas saat dieksekusi.
 
 ### Oracle 12
 
@@ -45,4 +45,4 @@ FROM nama_tabel
 FETCH FIRST 44 ROWS ONLY;
 ```
 
-Query diatas akan mengeluarkan 44 data teratas saat dieksekusi
+Query diatas akan mengeluarkan 44 data teratas saat dieksekusi.

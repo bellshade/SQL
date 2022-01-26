@@ -2,7 +2,7 @@
 
 > LIMIT merupakan perintah untuk menentukan jumlah data yang akan diberikan.
 
-**LIMIT** biasa nya digunakan bada tabel yang memiliki ribuan atau lebih data karena saat memberikan data yang berjumlah besar, kinerja dari database akan ikut terpengaruhi.
+**LIMIT** digunakan bada tabel yang memiliki ribuan atau lebih data karena saat memberikan data yang berjumlah besar, kinerja dari database akan ikut terpengaruhi.
 
 ## Query
 

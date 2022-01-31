@@ -57,7 +57,6 @@ SELECT * FROM tabel_siswa
 | 9  | Albert Kylynn   | Prancis  |
 | 10 | Tamara Wyatt    | Prancis  |
 
-
 ### Menghitung data di satu tabel
 
 ```sql

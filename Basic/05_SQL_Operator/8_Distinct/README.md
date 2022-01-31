@@ -34,7 +34,9 @@
   | Kuala Lumpur |
   | Jakarta      |
 
-  Penjelasan : Menampilkan data kota dari mahasiswa dengan record data manado, dan jakarta hanya ditampilkan 1 kali (tanpa duplikasi).
+  Penjelasan :
+
+  > Menampilkan data kota dari mahasiswa dengan record data manado, dan jakarta hanya ditampilkan 1 kali (tanpa duplikasi).
 
 - SQL Query : `SELECT` `DISTINCT` **umur** `FROM` **mahasiswa**
 
@@ -45,4 +47,6 @@
   | 18   |
   | 19   |
 
-  Penjelasan : Menampilkan data umur dari mahasiswa dengan record 19 tahun hanya ditampilkan 1 kali (tanpa duplikasi).
+  Penjelasan :
+
+  > Menampilkan data umur dari mahasiswa dengan record data 19 tahun hanya ditampilkan 1 kali (tanpa duplikasi).

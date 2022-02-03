@@ -17,58 +17,113 @@
 | ASCENDING  | Pengurutan dari nilai terkecil menuju nilai terbesar | ASC   |
 | DESCENDING | Pengurutan dari nilai terbesar menuju nilai terkecil | DESC  |
 
-## Contoh Query
+## 3. Contoh Query
 
-### **3. Contoh**
+- Tabel Latihan
+
+  > Keterangan: Tabel berikut merupakan tabel **mahasiswa** yang berisi data **nama**, **kota**, dan **umur**.
+
+      | nama    | kota         | umur |
+      | ------- | ------------ | ---- |
+      | Adi     | Jambi        | 18   |
+      | Budi    | Manado       | 19   |
+      | Celine  | Kuala Lumpur | 19   |
+      | Dhike   | Jakarta      | 18   |
+      | Frieska | Jakarta      | 19   |
+      | Ghaida  | Manado       | 18   |
 
 - ASCENDING :
 
-  SQL Query : `SELECT` nama `FROM` mahasiswa **`ORDER BY`** nama **`ASC`**
+  1. SQL Query : `SELECT` nama, kota, umur `FROM` mahasiswa **`ORDER BY`** nama **`ASC`**
 
-  Output :
+     Output :
 
-  | nama   |
-  | ------ |
-  | Adi    |
-  | Budi   |
-  | Celine |
+     | nama    | kota         | umur |
+     | ------- | ------------ | ---- |
+     | Adi     | Jambi        | 18   |
+     | Budi    | Manado       | 19   |
+     | Celine  | Kuala Lumpur | 19   |
+     | Dhike   | Jakarta      | 18   |
+     | Frieska | Jakarta      | 19   |
+     | Ghaida  | Manado       | 18   |
 
-  Penjelasan : Menampilkan daftar nama dari tabel mahasiswa yang tersusun secara ascending/meningkat (a-z) berdasarkan kolom nama.
+  > Penjelasan : Menampilkan data nama, kota, dan umur dari tabel mahasiswa yang tersusun secara ascending/meningkat (a-z) berdasarkan kolom nama.
 
-  SQL Query : `SELECT` nim, nama `FROM` mahasiswa **`ORDER BY`** nim **`ASC`**
+  2. SQL Query : `SELECT` nama, kota, umur `FROM` mahasiswa **`ORDER BY`** umur **`ASC`**
 
-  Output :
+     Output :
 
-  | nim  | nama   |
-  | ---- | ------ |
-  | 0901 | Budi   |
-  | 0905 | Adi    |
-  | 0909 | Celine |
+     | nama    | kota         | umur |
+     | ------- | ------------ | ---- |
+     | Adi     | Jambi        | 18   |
+     | Dhike   | Jakarta      | 18   |
+     | Ghaida  | Manado       | 18   |
+     | Budi    | Manado       | 19   |
+     | Celine  | Kuala Lumpur | 19   |
+     | Frieska | Jakarta      | 19   |
 
-  Penjelasan : Menampilkan daftar nim, dan nama dari tabel mahasiswa yang tersusun secara ascending/meningkat (0-9) berdasarkan kolom nim.
+  > Penjelasan : Menampilkan data nama, kota, dan umur dari tabel mahasiswa yang tersusun secara ascending/meningkat (0-9) berdasarkan kolom umur.
 
 - DESCENDING :
 
-  SQL Query : `SELECT` nama `FROM` mahasiswa **`ORDER BY`** nama **`DESC`**
+  1. SQL Query : `SELECT` nama, kota, umur `FROM` mahasiswa **`ORDER BY`** nama **`DESC`**
 
-  Output :
+     Output :
 
-  | nama   |
-  | ------ |
-  | Celine |
-  | Budi   |
-  | Adi    |
+     | nama    | kota         | umur |
+     | ------- | ------------ | ---- |
+     | Ghaida  | Manado       | 18   |
+     | Frieska | Jakarta      | 19   |
+     | Dhike   | Jakarta      | 18   |
+     | Celine  | Kuala Lumpur | 19   |
+     | Budi    | Manado       | 19   |
+     | Adi     | Jambi        | 18   |
 
-  Penjelasan : Menampilkan daftar nama dari tabel mahasiswa yang tersusun secara descending/menurun (z-a) berdasarkan kolom nama.
+  > Penjelasan : Menampilkan data nama, kota, dan umur dari tabel mahasiswa yang tersusun secara descending/menurun (z-a) berdasarkan kolom nama.
 
-  SQL Query : `SELECT` nim, nama `FROM` mahasiswa **`ORDER BY`** nim **`DESC`**
+  2. SQL Query : `SELECT` nama, kota, umur `FROM` mahasiswa **`ORDER BY`** umur **`DESC`**
 
-  Output :
+     Output :
 
-  | nim  | nama   |
-  | ---- | ------ |
-  | 0909 | Celine |
-  | 0905 | Adi    |
-  | 0901 | Budi   |
+     | nama    | kota         | umur |
+     | ------- | ------------ | ---- |
+     | Budi    | Manado       | 19   |
+     | Celine  | Kuala Lumpur | 19   |
+     | Frieska | Jakarta      | 19   |
+     | Adi     | Jambi        | 18   |
+     | Dhike   | Jakarta      | 18   |
+     | Ghaida  | Manado       | 18   |
 
-  Penjelasan : Menampilkan daftar nim, dan nama dari tabel mahasiswa yang tersusun secara descending/menurun (9-0) berdasarkan kolom nim.
+  > Penjelasan : Menampilkan data nama, kota, dan umur dari tabel mahasiswa yang tersusun secara descending/menurun (9-0) berdasarkan kolom umur.
+
+- Multiple Column Ordering
+
+  1. SQL Query : `SELECT` nama, kota, umur `FROM` mahasiswa **`ORDER BY`** kota **`ASC`**, umur **`DESC`**
+
+     Output :
+
+     | nama    | kota         | umur |
+     | ------- | ------------ | ---- |
+     | Frieska | Jakarta      | 19   |
+     | Dhike   | Jakarta      | 18   |
+     | Adi     | Jambi        | 18   |
+     | Celine  | Kuala Lumpur | 19   |
+     | Budi    | Manado       | 19   |
+     | Ghaida  | Manado       | 18   |
+
+  > Penjelasan : Menampilkan data nama, kota, dan umur dari tabel mahasiswa yang tersusun secara ascending berdasarkan kolom kota diikuti tersusun secara descending berdasarkan kolom umur.
+
+  2. SQL Query : `SELECT` nama, kota, umur `FROM` mahasiswa **`ORDER BY`** kota, umur
+
+     Output :
+
+     | nama    | kota         | umur |
+     | ------- | ------------ | ---- |
+     | Dhike   | Jakarta      | 18   |
+     | Frieska | Jakarta      | 19   |
+     | Adi     | Jambi        | 18   |
+     | Celine  | Kuala Lumpur | 19   |
+     | Ghaida  | Manado       | 18   |
+     | Budi    | Manado       | 19   |
+
+  > Penjelasan : Menampilkan data nama, kota, dan umur dari tabel mahasiswa yang tersusun berdasarkan kolom kota, lalu diikuti kolom umur secara default, nilai default dari order by adalah **`ASC`**

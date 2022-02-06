@@ -81,7 +81,6 @@ WHERE asal = 'Polandia'
 
 Query diatas hanya mencari nilai terbesar dari kolom `nilai` dengan kondisi dikolom `asal` berisi `Polandia`
 
-
 ### Mencari nilai terkecil data di satu tabel
 
 ```sql

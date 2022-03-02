@@ -66,7 +66,7 @@ SELECT AVG(nilai) as rata_rata FROM tabel_siswa
 ### Menghitung rata-rata data dengan kondisi
 
 ```sql
-SELECT COUNT(nilai) as rata_rata FROM tabel_siswa
+SELECT AVG(nilai) as rata_rata FROM tabel_siswa
 WHERE asal = 'Indonesia'
 ```
 | rata_rata |

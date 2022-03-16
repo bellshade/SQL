@@ -127,3 +127,5 @@
      | Budi    | Manado       | 19   |
 
   > Penjelasan : Menampilkan data nama, kota, dan umur dari tabel mahasiswa yang tersusun berdasarkan kolom kota, lalu diikuti kolom umur secara default, nilai default dari order by adalah **`ASC`**
+
+[<< Materi sebelumnya](https://github.com/bellshade/SQL/tree/main/Basic/05_SQL_Operator/6_Limit) | [Materi selanjutnya >>](https://github.com/bellshade/SQL/tree/main/Basic/05_SQL_Operator/8_Distinct)

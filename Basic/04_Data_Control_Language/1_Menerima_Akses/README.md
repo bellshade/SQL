@@ -104,3 +104,5 @@ Membuat user baru yang memiliki semua _Privileges_ seperti user `root`.
 ```sql
 GRANT ALL ON * . * TO 'bell_user'@'localhost';
 ```
+
+[<< Materi sebelumnya](https://github.com/bellshade/SQL/tree/main/Basic/03_Data_Defintion_Language/6_Mengganti_Nama_Object) | [Materi selanjutnya >>](https://github.com/bellshade/SQL/tree/main/Basic/04_Data_Control_Language/2_Menolak_Akses)

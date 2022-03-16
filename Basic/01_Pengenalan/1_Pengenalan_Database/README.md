@@ -24,7 +24,6 @@ Contoh DBMS :
 6. Mongo DB
 7. Microsoft Access
 
-
 ### **KEUNTUNGAN DAN KEKURANGAN DBMS**
 
 Kelebihan 
@@ -38,3 +37,5 @@ Kekurangan
 - Memerlukan Spesialis dibidang Database
 - Memerlukan Ruang Penyimpanan yang Besar
 - Kompleks dan Rumit
+
+[Materi selanjutnya >>](https://github.com/bellshade/SQL/tree/main/Basic/01_Pengenalan/2_Pengenalan_Database_Relational)

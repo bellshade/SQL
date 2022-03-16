@@ -53,10 +53,12 @@
     
     Penjelasan : 
     Menampilkan hasil perhitungan kolom **gaji_karyawan_per_jam** dan **waktu_kerja** dengan nama **total_gaji** saat ditampilkan.
-   
+
     - Nama tabel :
         
       SQL Query : `SELECT * FROM tabel_absen_mahasiswa AS tbl_mhs`
             
       Penjelasan : 
       menyingkat nama tabel **tabel_absen_mahasiswa** menjadi **tbl_mhs**
+
+[<< Materi sebelumnya](https://github.com/bellshade/SQL/tree/main/Basic/05_SQL_Operator/4_Operator_Penggabungan) | [Materi selanjutnya >>](https://github.com/bellshade/SQL/tree/main/Basic/05_SQL_Operator/6_Limit)

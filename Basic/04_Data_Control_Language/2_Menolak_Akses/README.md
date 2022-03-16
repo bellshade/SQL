@@ -106,3 +106,5 @@ Sebisa mungkin **jangan** melakukan **Pencabutan Semua Hak Akses** dari user `ro
 ```sql
 REVOKE ALL ON * . * FROM 'bell_user'@'localhost';
 ```
+
+[<< Materi sebelumnya](https://github.com/bellshade/SQL/tree/main/Basic/04_Data_Control_Language/1_Menerima_Akses) | [Materi selanjutnya >>](https://github.com/bellshade/SQL/tree/main/Basic/05_SQL_Operator/1_Operator_Aritmatika)

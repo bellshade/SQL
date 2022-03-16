@@ -1,8 +1,8 @@
 # SQL INSERT INTO
 
-Bahasa Query dari `INSERT INTO` digunakan untuk memasukkan data baru ke dalam sebuah table dari database yang kita miliki.<br>
+Bahasa Query dari `INSERT INTO` digunakan untuk memasukkan data baru ke dalam sebuah table dari database yang kita miliki.
 
-contohnya adalah
+Contohnya adalah
 
 ```SQL
 -- Membuat Database Sekolah
@@ -28,4 +28,4 @@ INSERT INTO siswa (nisn) VALUES (2);
 INSERT INTO siswa VALUES(3,"Ani"), (4,"Poseidon"), (5,"Hades");
 ```
 
-#### Terima Kasih !!
+[<< Materi sebelumnya](https://github.com/bellshade/SQL/tree/main/Basic/02_Data_Manipulation_Language/1_Menampilkan_Data) | [Materi selanjutnya >>](https://github.com/bellshade/SQL/tree/main/Basic/02_Data_Manipulation_Language/3_Mengupdate_Data)

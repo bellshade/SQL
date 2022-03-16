@@ -1,4 +1,4 @@
-## 2. **Menampilkan dan Menggunakan sebuah objek beserta struktur nya**
+## 2. **Menampilkan Object**
 
   `SHOW` dan `USE`
   
@@ -16,3 +16,4 @@
   - Menampilkan List Table didalam database Mahasiswa
     > `SHOW TABLES;`
    
+[<< Materi sebelumnya](https://github.com/bellshade/SQL/tree/main/Basic/03_Data_Defintion_Language/1_Membuat_Object) | [Materi selanjutnya >>](https://github.com/bellshade/SQL/tree/main/Basic/03_Data_Defintion_Language/3_Modifikasi_Object)

@@ -10,7 +10,6 @@ Note :
 > Dalam SQL penulisan Operasi operator harus diawali dengan key `SELECT` agar hasil dari operasi tersebut bisa ditampilkan
 > Operand adalah value yang akan dibandingkan / di operasikan untuk menemukan hasil nilai baru
 
-
 ### **2. Operator Aritmatika**
 
 
@@ -85,4 +84,4 @@ Note :
     | ----  |
     | 1    |
 
-
+[<< Materi sebelumnya](https://github.com/bellshade/SQL/tree/main/Basic/04_Data_Control_Language/2_Menolak_Akses) | [Materi selanjutnya >>](https://github.com/bellshade/SQL/tree/main/Basic/05_SQL_Operator/2_Operator_Perbandingan)

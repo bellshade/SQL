@@ -47,3 +47,5 @@ FETCH FIRST 44 ROWS ONLY;
 ```
 
 Query diatas akan mengeluarkan 44 data teratas saat dieksekusi.
+
+[<< Materi sebelumnya](https://github.com/bellshade/SQL/tree/main/Basic/05_SQL_Operator/5_Aliasing) | [Materi selanjutnya >>](https://github.com/bellshade/SQL/tree/main/Basic/05_SQL_Operator/7_OrderBy)

@@ -78,8 +78,6 @@ Hasil :
 |------|----------|
 | | |
 
----
-
 ### Compatibility Query
 
 | Relational Database Management | test syntax        |
@@ -87,3 +85,5 @@ Hasil :
 | SQL Server                     | :heavy_check_mark: |
 | MariaDB                        | :heavy_check_mark: |
 | . .                            |                    |
+
+[<< Materi sebelumnya](https://github.com/bellshade/SQL/tree/main/Basic/02_Data_Manipulation_Language/3_Mengupdate_Data) | [Materi selanjutnya >>](https://github.com/bellshade/SQL/tree/main/Basic/03_Data_Defintion_Language/1_Membuat_Object)

@@ -10,9 +10,7 @@ Note :
 > Dalam SQL penulisan Operasi operator harus diawali dengan key `SELECT` agar hasil dari operasi tersebut bisa ditampilkan
 > Operand adalah value yang akan dibandingkan / di operasikan untuk menemukan hasil nilai baru
 
-
 ### **2. Operator Perbandingan**
-
 
 | Operator | Nama     | Penjelasan |
 | ----     | -------- | ----------- |
@@ -37,7 +35,7 @@ Note :
     | true    |
     
     Penjelasan : 
-    hasil nya true karena secara logika benar 5 lebih kecil dari 9
+    hasilnya true karena secara logika benar 5 lebih kecil dari 9
     
   - Besar Dari : 
     
@@ -50,7 +48,7 @@ Note :
     | false    |
     
     Penjelasan : 
-    hasil nya adalah false karena secara logika 9 bukan lebih kecil dari 12
+    hasilnya adalah false karena secara logika 9 bukan lebih kecil dari 12
     
   - Lebih Kecil Sama Dengan : 
     
@@ -63,7 +61,7 @@ Note :
     | true   |
     
     Penjelasan : 
-    hasil nya bisa dikatakan true karena secara logika nilai 1 bisa lebih kecil atau bisa sama dengan nilai 2
+    hasilnya bisa dikatakan true karena secara logika nilai 1 bisa lebih kecil atau bisa sama dengan nilai 2
     
   - Lebih besar sama dengan  : 
     
@@ -76,7 +74,7 @@ Note :
     | true    |
     
     Penjelasan : 
-    hasil nya bisa dikatakan true karena secara logika nilai 1 lebih besar atau bisa sama dengan nilai 2
+    hasilnya bisa dikatakan true karena secara logika nilai 1 lebih besar atau bisa sama dengan nilai 2
     
 - Sama Dengan : 
     
@@ -89,7 +87,7 @@ Note :
     | false   |
     
     Penjelasan : 
-    hasil nya dikatakan false karena nilai 1 tidak sama dengan nilai 2
+    hasilnya dikatakan false karena nilai 1 tidak sama dengan nilai 2
     
 - Sama Dengan : 
     
@@ -102,7 +100,6 @@ Note :
     | true   |
     
     Penjelasan : 
-    hasil nya dikatakan false karena benar nilai 1 tidak sama dengan nilai 2
-    
-    
-    
+    hasilnya dikatakan false karena benar nilai 1 tidak sama dengan nilai 2
+
+[<< Materi sebelumnya](https://github.com/bellshade/SQL/tree/main/Basic/05_SQL_Operator/1_Operator_Aritmatika) | [Materi selanjutnya >>](https://github.com/bellshade/SQL/tree/main/Basic/05_SQL_Operator/3_Operator_Logika)

@@ -1,4 +1,4 @@
-## **Membuat sebuah objek atau objek lainnya yang belum ada.**
+## CREATE OBjECT
 
   `CREATE`
 
@@ -24,3 +24,5 @@
     >`CREATE TABLE NILAI (ID INT PRIMARY KEY, Nama_Mahasiswa VARCHAR(255) NOT NULL, Nilai INT , Mata_Kuliah VARCHAR(255), Tanggal_Input DateTime);`
    
     >`CREATE TABLE NILAI (ID INT PRIMARY KEY AUTO INCREMENT NOT NULL, ID_Mahasiswa INT NOT NULL, Nama_Mahasiswa VARCHAR(255) NOT NULL, Nilai INT , Mata_Kuliah VARCHAR(255), Tanggal_Input DateTime);`
+
+[<< Materi sebelumnya](https://github.com/bellshade/SQL/tree/main/Basic/02_Data_Manipulation_Language/4_Menghapus_Data) | [Materi selanjutnya >>](https://github.com/bellshade/SQL/tree/main/Basic/03_Data_Defintion_Language/2_Menampilkan_Object)

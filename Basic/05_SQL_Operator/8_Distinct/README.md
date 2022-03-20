@@ -50,3 +50,5 @@
   Penjelasan :
 
   > Menampilkan data umur dari mahasiswa dengan record data 19 tahun hanya ditampilkan 1 kali (tanpa duplikasi).
+
+[<< Materi sebelumnya](https://github.com/bellshade/SQL/tree/main/Basic/05_SQL_Operator/7_OrderBy) | [Materi selanjutnya >>](https://github.com/bellshade/SQL/tree/main/Basic/05_SQL_Operator/9_UNION)

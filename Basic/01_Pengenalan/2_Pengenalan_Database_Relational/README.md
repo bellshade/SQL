@@ -33,7 +33,9 @@ berikut ini jenis-jenis dari relational key:
 > Satu Atribut / Kumpulan Atribut yang secara unik mengidentifikasikan sebuah tuple didalam relasi
 
 4. Candidate Key
->Suatu Atribut atau Satu set minimal atribut yang mengidentifikasikan secara unik kejadian spesifik dari entitas
+> Suatu Atribut atau Satu set minimal atribut yang mengidentifikasikan secara unik kejadian spesifik dari entitas
 
 5. Alternatif Key
->Sebuah Candidate Key yang tidak dipakai atau tidak dipilih sebagai primary key
+> Sebuah Candidate Key yang tidak dipakai atau tidak dipilih sebagai primary key
+
+[<< Materi sebelumnya](https://github.com/bellshade/SQL/tree/main/Basic/01_Pengenalan/1_Pengenalan_Database) | [Materi selanjutnya >>](https://github.com/bellshade/SQL/tree/main/Basic/01_Pengenalan/3_Pengenalan_Query_Database)

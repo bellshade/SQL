@@ -60,7 +60,7 @@ SELECT *
 FROM siswa
 ```
 
-output:
+Output:
 | nish | nama |
 | ---- | -------- |
 | 1 | Budi |
@@ -86,3 +86,5 @@ output:
 | Ani |
 | Poseidon |
 | Hades |
+
+[<< Materi sebelumnya](https://github.com/bellshade/SQL/tree/main/Basic/01_Pengenalan/4_SQL_Comment) | [Materi selanjutnya >>](https://github.com/bellshade/SQL/tree/main/Basic/02_Data_Manipulation_Language/2_Menginput_Data)

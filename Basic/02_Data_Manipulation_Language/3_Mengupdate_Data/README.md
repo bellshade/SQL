@@ -1,6 +1,6 @@
 # SQL UPDATE
 
-Bahasa Query dari `UPDATE` digunakan untuk mengubah data yang sudah ada di sebuah table dari database yang kita miliki.<br>
+Bahasa Query dari `UPDATE` digunakan untuk mengubah data yang sudah ada di sebuah table dari database yang kita miliki.
 
 ### UPDATE sintak
 
@@ -112,8 +112,6 @@ Hasil :
 | 4 | Poseidon |
 | 5 | Hades |
 
----
-
 ### Compatibility Query
 
 | Relational Database Management | test syntax        |
@@ -121,3 +119,5 @@ Hasil :
 | SQL Server                     | :heavy_check_mark: |
 | MariaDB                        | :heavy_check_mark: |
 | . .                            |                    |
+
+[<< Materi sebelumnya](https://github.com/bellshade/SQL/tree/main/Basic/02_Data_Manipulation_Language/2_Menginput_Data) | [Materi selanjutnya >>](https://github.com/bellshade/SQL/tree/main/Basic/02_Data_Manipulation_Language/4_Menghapus_Data)

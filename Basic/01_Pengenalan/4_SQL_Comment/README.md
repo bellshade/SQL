@@ -1,5 +1,5 @@
 # SQL Comment
-Comment / Komentar digunakan untuk menjelaskan dari query yang kita buat ataupun digunakan untuk mencegah suatu query berjalan
+Comment / Komentar digunakan untuk menjelaskan dari query yang kita buat ataupun digunakan untuk mencegah suatu query berjalan.
 
 ## Single Line Comment
 Single line comment pada SQL dimulai dengan ```--```
@@ -22,3 +22,5 @@ Contoh penerapannya adalah<br>
 Dengan gender Perempuan*/
 SELECT * FROM siswa WHERE jk == 'Perempuan';
 ```
+
+[<< Materi sebelumnya](https://github.com/bellshade/SQL/tree/main/Basic/01_Pengenalan/3_Pengenalan_Query_Database) | [Materi selanjutnya >>](https://github.com/bellshade/SQL/tree/main/Basic/02_Data_Manipulation_Language/1_Menampilkan_Data)

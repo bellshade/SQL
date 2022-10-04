@@ -36,12 +36,11 @@ Table: class
 ```sql
 SELECT FirstName, ClassName 
 FROM student 
-LEFT JOIN Class 
+LEFT JOIN class 
 ON student.Class_Id = class.Class_ID
 ```
 
 Karena diberikan syntax `LEFT JOIN` untuk menggabungkan kedua table maka data yang diambil adalah semua data FirstName dari tabel student serta data dari tabel class yang class.Class_ID nya sama dengan student.Class_Id. Jika pada tabel kanan (class) tidak memiliki kesamaan pada class_id pada tabel 1 maka data yang ditampil adalah Null. Berikut hasil dari Query SQL diatas:
-
 
 ### Hasil
 

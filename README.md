@@ -53,6 +53,8 @@ Semua _script_ yang ada di repositori ini dapat diakses dengan cepat melalui lin
 |   10    |         Join Table               |                    Memahami bagaimana cara menggabungkan antar tabel                           | [Materi](Basic/10_Join_Table/) |
 |   11    |          GroupBy                 |                 Memahami bagaimana cara mengatur data yang rapih ke dalam grup                 | [Materi](Basic/11_GroupBy/) |
 |   12    |         SQL Schema               |                Memahami bagaimana cara mengatur data yang identik ke dalam grup                | [Materi](Basic/12_SQL_Schema/) |
+|   13    |          Blob                    |                Memahami bagaimana cara menyimpan data berupa kode biner                        | [Materi](Basic/13_Blob/)    |
+
 
 ## 🤩 Ayo Ikut Kami dan Berkontribusi! 🤩
 

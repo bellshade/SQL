@@ -1,4 +1,4 @@
-#  Manipulasi Database
+# Manipulasi Database
 
 -**CREATE DATABASE**, digunakan untuk membuat database dengan format sebagai berikut:
 

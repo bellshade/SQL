@@ -87,7 +87,7 @@ output:
 | Poseidon |
 | Hades |
 
-# SQL SELECT DISTINCT
+## SQL SELECT DISTINCT
 
 Query ```SELECT DISTINCT``` berguna untuk mengambil data-data yang berbeda dari database yang kita miliki.
 
@@ -96,7 +96,7 @@ SELECT DISTINCT nama_kolom1, nama_kolom2, …
 FROM nama_tabel;
 ```
 
-## Contoh Tabel
+### Contoh Tabel
 
 Nama tabel : ```mahasiswa```
 
@@ -107,7 +107,7 @@ Nama tabel : ```mahasiswa```
 | 3 | Malvin Valerian | Ilmu Sosial dan Ilmu Politik | Ilmu Pemerintahan
 | 4 | Khansa Novitasari | Fakultas Pertanian | Agribisnis |
 
-## Mengambil data dari kolom
+### Mengambil data dari kolom
 
 ```sql
 SELECT DISTINCT fakultas FROM mahasiswa;

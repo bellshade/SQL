@@ -87,4 +87,54 @@ output:
 | Poseidon |
 | Hades |
 
+# SQL SELECT DISTINCT
+
+Query ```SELECT DISTINCT``` berguna untuk mengambil data-data yang berbeda dari database yang kita miliki.
+
+```sql
+SELECT DISTINCT nama_kolom1, nama_kolom2, …
+FROM nama_tabel;
+```
+
+## Contoh Tabel
+
+Nama tabel : ```mahasiswa```
+
+| id | nama | fakultas | program_studi |
+| ---- | -------- | ---------- | ----- |
+| 1 | Dimas Ashari | Ilmu Komputer | Informatika |
+| 2 | Anissa Fitriani | Ilmu Komputer | Informatika |
+| 3 | Malvin Valerian | Ilmu Sosial dan Ilmu Politik | Ilmu Pemerintahan
+| 4 | Khansa Novitasari | Fakultas Pertanian | Agribisnis |
+
+## Mengambil data dari kolom
+
+```sql
+SELECT DISTINCT fakultas FROM mahasiswa;
+```
+
+Output:
+
+| fakultas |
+|-------- |
+| Ilmu Komputer |
+| Ilmu Sosial dan Ilmu Politik |
+| Fakultas Pertanian |
+
+```sql
+SELECT DISTINCT program_studi FROM mahasiswa;
+```
+
+Output:
+
+| program_studi |
+|-------- |
+| Informatika |
+| Ilmu Pemerintahan |
+| Agribisnis |
+
+Simple explanation :
+
+> Ketika menampilkan data dari kolom ```fakultas``` dengan query ```SELECT DISTINCT```, data **Ilmu Komputer** hanya ditampilkan sekali. Begitu juga dengan data **Informatika** dari kolom ```program_studi```.
+
 [<< Materi sebelumnya](https://github.com/bellshade/SQL/tree/main/Basic/01_Pengenalan/4_SQL_Comment) | [Materi selanjutnya >>](https://github.com/bellshade/SQL/tree/main/Basic/02_Data_Manipulation_Language/2_Menginput_Data)

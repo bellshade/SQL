@@ -4,7 +4,7 @@
     WPU Community is the fastest growing software developer forum initiated by <a href="https://www.youtube.com/c/WebProgrammingUNPAS"> Mr. Sandhika Galih</a> <br/><br/>
     <a href="http://discord.gg/S4rrXQU"><img src="https://img.shields.io/discord/722002048643497994?logo=discord&logoColor=white&style=for-the-badge"></a>
     <img src="https://img.shields.io/github/workflow/status/bellshade/PHP/CI%20PHP%20PSR-12%20Linting?style=for-the-badge"> 
-    <img alt="Visitor Badge" src="https://visitor-badges.glitch.me?username=bellshade&repo=SQL&label=VISITOR&style=for-the-badge&color=%232BFF84&contentType=svg"> <br>
+    <img alt="Visitor Badge" src="https://visitor-badge.feriirawann.repl.co?username=bellshade&repo=SQL&label=VISITOR&style=for-the-badge&color=%232BFF84&contentType=svg"> <br>
 </p>
 
 ## 🎉🎉 Selamat Datang di Repositori SQL 🎉🎉

@@ -8,8 +8,8 @@ Hal yang harus diperhatikan ketika menggunakan UNION :
 - Tipe data yang digunakan harus mirip (string, waktu, numerik, dll)
 - Jumlah kolom yang dipilih oleh setiap perintah SELECT harus sama
 
-```sql
 Syntax UNION :
+```sql
 SELECT kolom_1, kolom_2, ...
 FROM table_1
 UNION

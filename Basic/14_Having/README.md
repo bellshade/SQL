@@ -63,7 +63,7 @@ SELECT A.customer_id, SUM(A.amount) total_amount
 GROUP BY A.customer_id
 HAVING SUM(A.amount) > 200;
 ```
-**Result :**
+**Result:**
 
 |     | customer_id | total_amount |
 |-----|-------------|--------------|

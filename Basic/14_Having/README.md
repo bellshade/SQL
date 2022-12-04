@@ -1,6 +1,6 @@
 # SQL Having
 
-**Having** ditambahkan ke `SQL` Karena `WHERE` menempatkan kondisi pada `column` yang dipilih, sedangkan `HAVING` menempatkan kondisi pada gorup yang dibuat oleh `GROUP BY`  
+**Having** ditambahkan ke `SQL` Karena `WHERE` menempatkan kondisi pada `column` yang dipilih, sedangkan `HAVING` menempatkan kondisi pada gorup yang dibuat oleh [`GROUP BY`](https://github.com/bellshade/SQL/tree/main/Basic/11_GroupBy)  
 
 ### Having Syntax:
 kode berikut menunjukan posisi `HAVING` pada query

@@ -49,8 +49,8 @@ Berikut hasil dari Query SQL diatas:
 
 | CustomerName | OrderID |
 | :-------: | :-------: |
-|  **Null**  | Math      | 
-|  **Null**   | Math      |
+|  **Null**  | 10309      | 
+|  **Null**   | 10310      |
 |   Alfreds Futterkiste    | **Null**   | 
 |   Ana Trujillo Emparedados y helados    | 10308   | 
 |   Antonio Moreno Taquería    | **Null**   |

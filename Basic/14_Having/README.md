@@ -63,7 +63,7 @@ SELECT A.customer_id, SUM(A.amount) total_amount
 GROUP BY A.customer_id
 HAVING SUM(A.amount) > 200;
 ```
-**Result:**
+**Hasil**
 
 |     | customer_id | total_amount |
 |-----|-------------|--------------|
@@ -78,7 +78,7 @@ SELECT A.customer_id, COUNT(A.customer_id)
 GROUP BY A.customer_id
 having count(A.customer_id) > 30;
 ```
-**Result:**
+**Hasil**
 
 |     | customer_id | count |
 |-----|-------------|-------|
@@ -94,7 +94,7 @@ SELECT A.customer_id, MIN(A.amount)
 GROUP BY customer_id
 having MIN(A.amount) > 2;
 ```
-**Result:**
+**Hasil**
 
 |     | customer_id | min  |
 |-----|-------------|------|
